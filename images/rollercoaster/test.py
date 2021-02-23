@@ -1,6 +1,6 @@
 import os
-img_folder = "airplans"
-arr = os.listdir(f"/Users/darkpirate/Downloads/docker_volume/node/westcliff_801/project1/images/airplans/")
+img_folder = "charity"
+arr = os.listdir(f"/Users/darkpirate/Downloads/docker_volume/node/westcliff_801/project1/images/{img_folder}")
 for each in arr:
     print(f'''
             <a
@@ -16,3 +16,6 @@ for each in arr:
             </a>
     
     ''')
+
+
+
